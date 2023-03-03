@@ -16,7 +16,12 @@
 		9957F30829B285FB003BE49F /* Lift_n_LogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F30729B285FB003BE49F /* Lift_n_LogTests.swift */; };
 		9957F31229B285FB003BE49F /* Lift_n_LogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F31129B285FB003BE49F /* Lift_n_LogUITests.swift */; };
 		9957F31429B285FB003BE49F /* Lift_n_LogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F31329B285FB003BE49F /* Lift_n_LogUITestsLaunchTests.swift */; };
-		9957F32729B28E9C003BE49F /* Workouts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F32629B28E9C003BE49F /* Workouts.swift */; };
+		9957F32729B28E9C003BE49F /* WorkoutList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9957F32629B28E9C003BE49F /* WorkoutList.swift */; };
+		99BB0A9929B2914C0048F1D7 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB0A9829B2914C0048F1D7 /* ModelData.swift */; };
+		99BB0A9C29B292A60048F1D7 /* workouts.json in Resources */ = {isa = PBXBuildFile; fileRef = 99BB0A9B29B292A60048F1D7 /* workouts.json */; };
+		99BB0AA029B2930C0048F1D7 /* ExerciseItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB0A9F29B2930C0048F1D7 /* ExerciseItem.swift */; };
+		99BB0AA229B293BD0048F1D7 /* ExcerciseList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB0AA129B293BD0048F1D7 /* ExcerciseList.swift */; };
+		99BB0AA629B293DA0048F1D7 /* WorkoutItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99BB0AA529B293DA0048F1D7 /* WorkoutItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,7 +54,12 @@
 		9957F30D29B285FB003BE49F /* Lift_n_LogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Lift_n_LogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9957F31129B285FB003BE49F /* Lift_n_LogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift_n_LogUITests.swift; sourceTree = "<group>"; };
 		9957F31329B285FB003BE49F /* Lift_n_LogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lift_n_LogUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9957F32629B28E9C003BE49F /* Workouts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Workouts.swift; sourceTree = "<group>"; };
+		9957F32629B28E9C003BE49F /* WorkoutList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutList.swift; sourceTree = "<group>"; };
+		99BB0A9829B2914C0048F1D7 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		99BB0A9B29B292A60048F1D7 /* workouts.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = workouts.json; sourceTree = "<group>"; };
+		99BB0A9F29B2930C0048F1D7 /* ExerciseItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseItem.swift; sourceTree = "<group>"; };
+		99BB0AA129B293BD0048F1D7 /* ExcerciseList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExcerciseList.swift; sourceTree = "<group>"; };
+		99BB0AA529B293DA0048F1D7 /* WorkoutItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,8 @@
 			isa = PBXGroup;
 			children = (
 				9957F32329B28E77003BE49F /* Views */,
+				99BB0A9729B291340048F1D7 /* Model */,
+				99BB0A9A29B292630048F1D7 /* Resources */,
 				9957F2F129B285FA003BE49F /* Lift_n_LogApp.swift */,
 				9957F2F329B285FA003BE49F /* ContentView.swift */,
 				9957F2F529B285FB003BE49F /* Assets.xcassets */,
@@ -139,9 +151,44 @@
 		9957F32329B28E77003BE49F /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				9957F32629B28E9C003BE49F /* Workouts.swift */,
+				99BB0AA429B293C70048F1D7 /* Excercises */,
+				99BB0AA329B293C00048F1D7 /* Workouts */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		99BB0A9729B291340048F1D7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				99BB0A9829B2914C0048F1D7 /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		99BB0A9A29B292630048F1D7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				99BB0A9B29B292A60048F1D7 /* workouts.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		99BB0AA329B293C00048F1D7 /* Workouts */ = {
+			isa = PBXGroup;
+			children = (
+				9957F32629B28E9C003BE49F /* WorkoutList.swift */,
+				99BB0AA529B293DA0048F1D7 /* WorkoutItem.swift */,
+			);
+			path = Workouts;
+			sourceTree = "<group>";
+		};
+		99BB0AA429B293C70048F1D7 /* Excercises */ = {
+			isa = PBXGroup;
+			children = (
+				99BB0A9F29B2930C0048F1D7 /* ExerciseItem.swift */,
+				99BB0AA129B293BD0048F1D7 /* ExcerciseList.swift */,
+			);
+			path = Excercises;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -248,6 +295,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				99BB0A9C29B292A60048F1D7 /* workouts.json in Resources */,
 				9957F2F929B285FB003BE49F /* Preview Assets.xcassets in Resources */,
 				9957F2F629B285FB003BE49F /* Assets.xcassets in Resources */,
 			);
@@ -275,10 +323,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9957F2FE29B285FB003BE49F /* Lift_n_Log.xcdatamodeld in Sources */,
-				9957F32729B28E9C003BE49F /* Workouts.swift in Sources */,
+				9957F32729B28E9C003BE49F /* WorkoutList.swift in Sources */,
 				9957F2FB29B285FB003BE49F /* Persistence.swift in Sources */,
 				9957F2F429B285FA003BE49F /* ContentView.swift in Sources */,
 				9957F2F229B285FA003BE49F /* Lift_n_LogApp.swift in Sources */,
+				99BB0AA229B293BD0048F1D7 /* ExcerciseList.swift in Sources */,
+				99BB0AA629B293DA0048F1D7 /* WorkoutItem.swift in Sources */,
+				99BB0AA029B2930C0048F1D7 /* ExerciseItem.swift in Sources */,
+				99BB0A9929B2914C0048F1D7 /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
