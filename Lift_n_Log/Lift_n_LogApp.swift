@@ -9,10 +9,12 @@ import SwiftUI
 
 @main
 struct Lift_n_LogApp: App {
+    @StateObject private var modelData = ModelData()
 
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(modelData)
         }
     }
 }

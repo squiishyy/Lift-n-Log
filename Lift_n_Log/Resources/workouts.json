@@ -1,127 +1,150 @@
 [
     {
-        "name":"Arm Day",
         "id":1001,
-        "excercises":[
+        "name":"Arm Day",
+        "lifts":[
             {
-                "excerciseId":1,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":1,
+                "sets":11,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":1,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":1,
+                "sets":12,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":1,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":1,
+                "sets":13,
+                "reps":10,
+                "weight":100
+            },
+            {
+                "exerciseId":1,
+                "sets":14,
+                "reps":10,
                 "weight":100
             }
         ]
-        
     },
     {
-        "name":"Leg Day",
         "id":1002,
-        "excercises":[
+        "name":"Leg Day",
+        "lifts":[
             {
-                "excerciseId":2,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":2,
+                "sets":11,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":2,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":2,
+                "sets":12,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":2,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":2,
+                "sets":13,
+                "reps":10,
+                "weight":100
+            },
+            {
+                "exerciseId":2,
+                "sets":14,
+                "reps":10,
                 "weight":100
             }
         ]
     },
     {
-        "name":"Shoulder Day",
         "id":1003,
-        "excercises":[
+        "name":"Shoulder Day",
+        "lifts":[
             {
-                "excerciseId":3,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":3,
+                "sets":11,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":3,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":3,
+                "sets":12,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":3,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":3,
+                "sets":13,
+                "reps":10,
+                "weight":100
+            },
+            {
+                "exerciseId":3,
+                "sets":14,
+                "reps":10,
                 "weight":100
             }
         ]
     },
     {
-        "name":"Chest Day",
         "id":1004,
-        "excercises":[
+        "name":"Chest Day",
+        "lifts":[
             {
-                "excerciseId":4,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":4,
+                "sets":11,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":4,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":4,
+                "sets":12,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":4,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":4,
+                "sets":13,
+                "reps":10,
+                "weight":100
+            },
+            {
+                "exerciseId":4,
+                "sets":14,
+                "reps":10,
                 "weight":100
             }
         ]
     },
     {
-        "name":"Whole Body",
         "id":1005,
-        "excercises":[
+        "name":"Whole Body",
+        "lifts":[
             {
-                "excerciseId":1,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":1,
+                "sets":11,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":2,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":2,
+                "sets":12,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":3,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":3,
+                "sets":13,
+                "reps":10,
                 "weight":100
             },
             {
-                "excerciseId":4,
-                "numSets":4,
-                "numReps":10,
+                "exerciseId":4,
+                "sets":14,
+                "reps":10,
                 "weight":100
             }
         ]

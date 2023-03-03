@@ -1,22 +1,22 @@
 [
     {
         "id":1,
-        "name":"Bicep Curl"
+        "name":"Bicep Curl",
         "group":"bicep"
     },
     {
         "id":2,
-        "name":"Back Squat"
+        "name":"Back Squat",
         "group":"leg"
     },
     {
         "id":3,
-        "name":"Shoudler Press"
+        "name":"Shoudler Press",
         "group":"shoulder"
     },
     {
         "id":4,
-        "name":"Bench Press"
+        "name":"Bench Press",
         "group":"chest"
-    },
+    }
 ]

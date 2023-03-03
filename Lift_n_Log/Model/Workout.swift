@@ -10,5 +10,12 @@ import Foundation
 struct Workout: Codable, Identifiable, Hashable {
     var id: Int
     var name: String
-    var exercises: [Exercise]
+    var lifts: [Lift]
+    
+    struct Lift: Codable, Hashable {
+        var exerciseId: Int
+        var sets: Int
+        var reps: Int
+        var weight: Int
+    }
 }

@@ -1,5 +1,5 @@
 //
-//  Excercise.swift
+//  Exercise.swift
 //  Lift_n_Log
 //
 //  Created by Joseph Eschen on 3/3/23.

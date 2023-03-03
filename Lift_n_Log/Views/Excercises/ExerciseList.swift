@@ -8,13 +8,20 @@
 import SwiftUI
 
 struct ExcerciseList: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        List {
+            ForEach(modelData.exercises) { exercise in
+                Text(exercise.name)
+            }
+        }
     }
 }
 
 struct ExcerciseList_Previews: PreviewProvider {
     static var previews: some View {
         ExcerciseList()
+            .environmentObject(ModelData())
     }
 }

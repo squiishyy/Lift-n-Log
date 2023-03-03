@@ -15,7 +15,8 @@ struct WorkoutList: View {
             ForEach(modelData.workouts) { workout in
                 WorkoutItem(workout: workout)
             }
-        }.navigationTitle("Workouts")
+            .navigationTitle("Workouts")
+        }
     }
 }
 
