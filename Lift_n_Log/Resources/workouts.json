@@ -2,36 +2,128 @@
     {
         "name":"Arm Day",
         "id":1001,
-        "distance":4.5,
-        "difficulty":3,
-        "excerciseIds":[1,1,1]
+        "excercises":[
+            {
+                "excerciseId":1,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":1,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":1,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            }
+        ]
+        
     },
     {
         "name":"Leg Day",
         "id":1002,
-        "distance":4.5,
-        "difficulty":3,
-        "excerciseIds":[2,2,2]
+        "excercises":[
+            {
+                "excerciseId":2,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":2,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":2,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            }
+        ]
     },
     {
         "name":"Shoulder Day",
         "id":1003,
-        "distance":4.5,
-        "difficulty":3,
-        "excerciseIds":[3,3,3]
+        "excercises":[
+            {
+                "excerciseId":3,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":3,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":3,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            }
+        ]
     },
     {
         "name":"Chest Day",
         "id":1004,
-        "distance":4.5,
-        "difficulty":3,
-        "excerciseIds":[4,4,4]
+        "excercises":[
+            {
+                "excerciseId":4,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":4,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":4,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            }
+        ]
     },
     {
         "name":"Whole Body",
         "id":1005,
-        "distance":4.5,
-        "difficulty":3,
-        "excerciseIds":[1,2,3,4]
+        "excercises":[
+            {
+                "excerciseId":1,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":2,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":3,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            },
+            {
+                "excerciseId":4,
+                "numSets":4,
+                "numReps":10,
+                "weight":100
+            }
+        ]
     }
 ]

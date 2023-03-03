@@ -8,9 +8,13 @@
 import SwiftUI
 
 struct WorkoutList: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var body: some View {
         List {
-            
+            ForEach(modelData.workouts) { workout in
+                WorkoutItem(workout: workout)
+            }
         }.navigationTitle("Workouts")
     }
 }
@@ -18,5 +22,6 @@ struct WorkoutList: View {
 struct WorkoutList_Previews: PreviewProvider {
     static var previews: some View {
         WorkoutList()
+            .environmentObject(ModelData())
     }
 }
